@@ -12,14 +12,13 @@ const COLORS = {
     button: '#6B49D9',
     icon: '#545353',
     border: '#E0E0E0',
-    inputBorderActive: '#6B49D9', 
+    inputBorderActive: '#6B49D9', // Matched with your brand purple
     placeholder: '#999999',
     googleRed: '#DB4437'
 };
 
 const Index = () => {
     const [textEmail, setTextEmail] = useState('');
-    const [textPassword, setTextPassword] = useState('');
     const [showPassword, setShowPassword] = useState(false);
 
     const handleLogin = () => {
@@ -42,6 +41,7 @@ const Index = () => {
         <SafeAreaView style={styles.safeAreaView}>
             <View style={styles.container}>
                 
+                {/* Header Section */}
                 <Image 
                     source={require("../assets/images/purple-lock.png")} 
                     style={styles.image} 
@@ -50,6 +50,7 @@ const Index = () => {
                 <Text style={styles.welcome}>Welcome Back</Text>
                 <Text style={styles.subtitle}>Please login to your account</Text>
 
+                {/* Input Fields */}
                 <View style={styles.inputWrapper}>
                     <Ionicons name="mail-outline" size={20} color={COLORS.placeholder} style={styles.inputIcon} />
                     <TextInput
@@ -63,34 +64,6 @@ const Index = () => {
                     />
                 </View>
 
-                <View style={styles.inputWrapper}>
-                    <Ionicons name="lock-closed-outline" size={20} color={COLORS.placeholder} style={styles.inputIcon} />
-                    <TextInput
-                        style={[styles.textInput, Platform.OS === 'web' && { outline: 'none' } as any]}
-                        placeholder="Password"
-                        placeholderTextColor={COLORS.placeholder}
-                        value={textPassword}
-                        onChangeText={setTextPassword}
-                        secureTextEntry={!showPassword}
-                        autoCapitalize="none"
-                    />
-                    <TouchableOpacity onPress={() => setShowPassword(prev => !prev)} style={styles.eyeIcon}>
-                        <Ionicons
-                            name={showPassword ? "eye-outline" : "eye-off-outline"}
-                            size={20}
-                            color={COLORS.placeholder}
-                        />
-                    </TouchableOpacity>
-                </View>
-
-                <TouchableOpacity
-                    style={styles.forgotPasswordButton}
-                    onPress={handleForgotPassword}
-                    activeOpacity={0.7}
-                >
-                    <Text style={[styles.forgotPasswordText,{marginRight:30}]}>Forgot Password?</Text>
-                </TouchableOpacity>
-
                 <TouchableOpacity
                     style={styles.primaryButton}
                     onPress={handleLogin}
@@ -99,12 +72,14 @@ const Index = () => {
                     <Text style={styles.primaryButtonText}>Login</Text>
                 </TouchableOpacity>
 
+                {/* Divider */}
                 <View style={styles.divider}>
                     <View style={styles.dividerLine} />
                     <Text style={styles.dividerText}>OR</Text>
                     <View style={styles.dividerLine} />
                 </View>
 
+                {/* Third-Party Auth */}
                 <TouchableOpacity
                     style={styles.socialButton}
                     onPress={handleGoogleAuth}
@@ -114,6 +89,7 @@ const Index = () => {
                     <Text style={styles.socialButtonText}>Continue with Google</Text>
                 </TouchableOpacity>
 
+                {/* Footer Section */}
                 <View style={styles.footerRow}>
                     <Text style={styles.footerText}>Don't have an account?</Text>
                     <TouchableOpacity onPress={handleSignUp} activeOpacity={0.7}>
