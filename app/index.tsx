@@ -88,7 +88,7 @@ const Index = () => {
                     onPress={handleForgotPassword}
                     activeOpacity={0.7}
                 >
-                    <Text style={[styles.forgotPasswordText,{marginRight:30}]}>Forgot Password?</Text>
+                    <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
         padding: 4,
     },
     forgotPasswordButton: {
-        alignSelf: 'flex-end',
+        alignSelf:"center",
         width: 320,
         maxWidth: '100%',
         marginBottom: 24,
