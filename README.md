@@ -127,7 +127,7 @@ npx expo start
 
 ## 🎥 Demo Video
 
-▶️ [Watch on YouTube](YOUR_YOUTUBE_LINK)
+▶️ [Watch on YouTube](https://youtu.be/0WCr4oFrar0?si=9G2hPkSQJM6GRYO6)
 
 ---
 
@@ -136,8 +136,8 @@ npx expo start
 **Kalana Methsara**
 - 📧 kalanamethsara53@gmail.com
 - 🎓 Graduate Diploma in Software Engineering — IJSE
-- 💼 [LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE)
-- 🐙 [GitHub](https://github.com/YOUR_USERNAME)
+- 💼 [LinkedIn](https://www.linkedin.com/posts/kalana-methsara_reactnative-expo-typescript-ugcPost-7472379141938622464-sDb5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkd9BMBcEJXMBHLqxeeBMNxDbh9NGJtCB8)
+- 🐙 [GitHub](https://github.com/Kalana-methsara/my-app-amd.git)
 
 ---
 
