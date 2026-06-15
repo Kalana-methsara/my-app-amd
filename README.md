@@ -19,12 +19,12 @@
 
 ## 📸 Screenshots
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-  <img src="./assets/images/login.png" width="200" alt="Login Page" />
-  <img src="./assets/images/forget.png" width="200" alt="Forgot Password Page" />
-  <img src="./assets/images/dashboard.png" width="200" alt="Dashboard Page" />
+<div align="center">
+  <img src="./assets/images/login.png" width="200" style="margin:8px"/>
+    <img src="./assets/images/forget.png" width="200" style="margin:8px"/>
+  <img src="./assets/images/dashboard.png" width="200" style="margin:8px"/>
 </div>
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+<div align="center">
   <img src="./assets/images/orders.png" width="200" style="margin:8px"/>
   <img src="./assets/images/products.png" width="200" style="margin:8px"/>
   <img src="./assets/images/profile.png" width="200" style="margin:8px"/>
