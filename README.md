@@ -1,50 +1,158 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📱 Mobile Admin Dashboard
 
-## Get started
+### Built with React Native & Expo — My First Mobile App 🚀
 
-1. Install dependencies
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo_SDK_56-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![NativeWind](https://img.shields.io/badge/NativeWind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://www.nativewind.dev/)
 
-   ```bash
-   npm install
-   ```
+<br/>
 
-2. Start the app
+> A fully functional cross-platform **Admin Dashboard** mobile app built as part of the Advanced Mobile Application Development (AMD) module at **IJSE**.
 
-   ```bash
-   npx expo start
-   ```
+</div>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📸 Screenshots
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+<div align="center">
+  <img src="./assets/images/login.png" width="200" style="margin:8px"/>
+    <img src="./assets/images/forget.png" width="200" style="margin:8px"/>
+  <img src="./assets/images/dashboard.png" width="200" style="margin:8px"/>
+</div>
+<div align="center">
+  <img src="./assets/images/orders.png" width="200" style="margin:8px"/>
+  <img src="./assets/images/products.png" width="200" style="margin:8px"/>
+  <img src="./assets/images/profile.png" width="200" style="margin:8px"/>
+</div>
+---
 
-## Get a fresh project
+## ✨ Features
 
-When you're ready, run:
+- 🏠 **Home Dashboard** — Live stats overview with Users, Revenue & Orders cards
+- 📦 **Recent Orders** — Order list with Completed / Pending status badges
+- 🛍️ **Product Management** — Products with category tags, stock info & edit actions
+- 👤 **Profile Screen** — Stats row, account menu navigation & logout flow
+- 🗂️ **File-based Routing** — Clean navigation with Expo Router
+- 🎨 **Consistent Design System** — Purple brand theme (`#6B49D9`) across all screens
 
-```bash
-npm run reset-project
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React Native** | Cross-platform mobile framework |
+| **Expo SDK 56** | Development toolchain & build system |
+| **TypeScript** | Type-safe JavaScript |
+| **Expo Router** | File-based navigation |
+| **NativeWind** | Tailwind CSS for React Native |
+| **@expo/vector-icons** | Ionicons, Feather, MaterialIcons |
+
+---
+
+## 📁 Project Structure
+
+```
+app/
+├── (tabs)/
+│   ├── index.tsx          # Home Dashboard
+│   ├── orders.tsx         # Orders Screen
+│   ├── products.tsx       # Products Screen
+│   └── profile.tsx        # Profile Screen
+├── _layout.tsx            # Root layout
+assets/
+├── images/
+│   ├── dashboard.png
+│   ├── orders.png
+│   ├── products.png
+│   └── profile.png
+components/
+└── ...
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### Prerequisites
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Node.js 18+
+- Expo CLI
+- iOS Simulator / Android Emulator or Expo Go app
 
-## Join the community
+### Installation
 
-Join our community of developers creating universal apps.
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Navigate into the project
+cd YOUR_REPO_NAME
+
+# Install dependencies
+npm install
+
+# Start the development server
+npx expo start
+```
+
+### Run on Device
+
+```bash
+# iOS Simulator
+npx expo run:ios
+
+# Android Emulator
+npx expo run:android
+
+# Expo Go (scan QR code)
+npx expo start
+```
+
+---
+
+## 📚 Key Concepts Learned
+
+- ✅ Mobile-first layout thinking with `SafeAreaView`, `FlatList`, and `flex`
+- ✅ Component-based architecture with reusable cards & lists
+- ✅ Dynamic styling with status-aware color logic
+- ✅ File-based routing with Expo Router
+- ✅ Consistent design tokens across all screens
+- ✅ Platform-aware layout handling
+
+---
+
+## 🎥 Demo Video
+
+▶️ [Watch on YouTube](YOUR_YOUTUBE_LINK)
+
+---
+
+## 👨‍💻 Author
+
+**Kalana Methsara**
+- 📧 kalanamethsara53@gmail.com
+- 🎓 Graduate Diploma in Software Engineering — IJSE
+- 💼 [LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE)
+- 🐙 [GitHub](https://github.com/YOUR_USERNAME)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+⭐ If you found this helpful, please give it a star!
+
+**Made with ❤️ and lots of ☕ by Kalana Methsara**
+
+</div>
