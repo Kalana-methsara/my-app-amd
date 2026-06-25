@@ -48,6 +48,14 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos to your library",
+          "isGrantingTargetVideosPermission": true
+        }
       ]
     ],
     "experiments": {
